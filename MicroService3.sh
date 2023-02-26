@@ -25,6 +25,7 @@ wget https://chromedriver.storage.googleapis.com/108.0.5359.71/chromedriver_linu
 unzip chromedriver_linux64.zip
 apt install -y poppler-utils
 mkdir /app
+mkdir /app/result
 mv chromedriver /app/chromedriver
 cd /app
 cp -r microservice3/* /app
